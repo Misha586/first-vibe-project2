@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First Vibe — демо</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>First Vibe — быстрый лендинг</h1>
+    <p>Демонстрационная страница: адаптивная и готовая к кастомизации.</p>
+    <a class="cta" href="#contact">Связаться</a>
+  </header>
+
+  <main>
+    <section id="about" class="block">
+      <h2>О проекте</h2>
+      <p>Короткое описание услуги или продукта.</p>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Контакты</h2>
+      <form id="contactForm">
+        <input name="name" placeholder="Имя" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Сообщение"></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+      <div id="result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© First Vibe — демо</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* Базовое оформление */
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #f6f7fb; color: #111; }
+
+.hero {
+  padding: 40px 16px;
+  text-align: center;
+  background: linear-gradient(135deg,#8ec5ff,#e0c3fc);
+  color: #fff;
+}
+.hero h1 { margin: 0 0 8px; font-size: 24px; }
+.cta {
+  display: inline-block;
+  margin-top:12px;
+  padding:10px 18px;
+  background:#111;
+  color:#fff;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.block {
+  padding: 20px 16px;
+  max-width: 900px;
+  margin: 12px auto;
+  background:#fff;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.06);
+}
+form input, form textarea {
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+button[type="submit"] {
+  padding:10px 16px;
+  border:none;
+  background:#111;
+  color:#fff;
+  border-radius:6px;
+  cursor:pointer;
+}
+.footer {
+  text-align:center;
+  padding:12px;
+  font-size:13px;
+  color:#666;
+  margin-top:12px;
+}
+
+/* Немного крупнее шрифт на больших экранах */
+@media(min-width:700px){
+  .hero h1 { font-size:32px; }
+}
